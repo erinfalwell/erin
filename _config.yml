@@ -26,4 +26,6 @@ github_username:  jekyll
 
 # Build settings
 markdown: kramdown
-theme: minima
+# Sass settings
+sass:
+    style: :compressed

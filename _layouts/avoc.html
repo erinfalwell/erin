@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Home Page</title>
+
+    {% include links.html %}
+
+  </head>
+  <body>
+
+    {% include header.html %}
+
+    <section id="page-body">
+      <div class="wrapper">
+        {{ content }}
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+  
+  {% include scripts.html %}
+</html>
