@@ -11,15 +11,13 @@
 
     {% include header.html %}
 
-    <section id="page-body">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    {% include hero-slider.html %}
+
+    {% include home-body.html %}
 
     {% include footer.html %}
 
   </body>
-  
+
   {% include scripts.html %}
 </html>
